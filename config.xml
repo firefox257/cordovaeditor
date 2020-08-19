@@ -19,13 +19,16 @@
     <platform name="android">
         <allow-intent href="market:*" />
         <preference name="Fullscreen" value="true" />
+        <preference name="Orientation" value="portrait" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
         <preference name="Fullscreen" value="true" />
+        <preference name="Orientation" value="portrait" />
     </platform>
     <platform name="broser">
         <preference name="Fullscreen" value="true" />
+        <preference name="Orientation" value="portrait" />
     </platform>
 </widget>
